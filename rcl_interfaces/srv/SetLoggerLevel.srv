@@ -1,0 +1,5 @@
+# A service for setting the logger level for a node.
+# logger_level values are enumerated in Log.msg
+
+uint8 logger_level
+---
