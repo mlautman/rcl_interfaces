@@ -1,17 +1,9 @@
 ##
 ## Severity level constants
 ##
-byte DEBUG=10 #debug level
-byte INFO=20  #general level
-byte WARN=30  #warning level
-byte ERROR=40 #error level
-byte FATAL=50 #fatal/critical level
 
-##
-## Fields
-##
 builtin_interfaces/Time stamp
-uint8 level
+uint8 level # security level constant as defined in LoggerLevelType.msg
 string name # the name representing the logger this message came from
 string msg # message
 string file # file the message came from

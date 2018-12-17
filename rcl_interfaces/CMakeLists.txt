@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IntraProcessMessage.msg"
   "msg/ListParametersResult.msg"
   "msg/Log.msg"
+  "msg/LoggerLevelType.msg"
   "msg/ParameterDescriptor.msg"
   "msg/ParameterEventDescriptors.msg"
   "msg/ParameterEvent.msg"
